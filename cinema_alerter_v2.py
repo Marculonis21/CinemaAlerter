@@ -24,14 +24,15 @@ from typing import Dict, List, Any, Optional, Tuple
 
 # Configuration
 CINEMA_ID = "1052"                     # Cinema City Flora (Prague)
-FILM_ID = "7268s2r"                    # Movie: Odyssea
+FILM_ID = "8105s2r"                    # Movie: Duna: část třetí (Dune: Part Three)
+FILM_NAME = "Duna: část třetí"         # Movie display title
 TARGET_ATTR = "70-mm"                  # Attribute filter: IMAX 70mm
 UNTIL_DATE = "2027-12-31"              # Search boundary date
 STATE_FILE = "state_v2.json"           # Persistent memory file for v2
 
 # Notification Settings (ntfy.sh)
 NTFY_ENABLED = True
-NTFY_TOPIC = "cinemacity_odyssea_marculonis"  # Change to your custom topic name!
+NTFY_TOPIC = "cinemacity_odyssea_marculonis"  # Change to your desired ntfy topic if needed
 
 HEADERS = {
     "User-Agent": (
@@ -230,10 +231,13 @@ def main():
 
     # 1. Load previous state
     previous_state = load_state()
-    is_initial_run = previous_state.get("last_check") is None
+    is_initial_run = (
+        previous_state.get("last_check") is None
+        or previous_state.get("film_id") != FILM_ID
+    )
 
     if is_initial_run:
-        print("ℹ️ First run detected. Initializing state baseline...")
+        print(f"ℹ️ Initial run for {FILM_NAME} (ID: {FILM_ID}). Initializing state baseline...")
     else:
         print(f"ℹ️ Loaded baseline from last check: {previous_state['last_check']}")
 
@@ -247,8 +251,8 @@ def main():
 
     print(f"   Found {len(all_cinema_dates)} total date(s) with any screenings at cinema.")
 
-    # 3. Fetch current IMAX 70mm events specifically for Odyssea
-    print("2️⃣ Probing dates specifically for Odyssea (IMAX 70mm)...")
+    # 3. Fetch current IMAX 70mm events specifically for the target film
+    print(f"2️⃣ Probing dates specifically for {FILM_NAME} (IMAX 70mm)...")
     current_events: Dict[str, Dict[str, Any]] = {}
 
     for d in all_cinema_dates:
@@ -293,7 +297,7 @@ def main():
     ]
 
     print("\n" + "=" * 70)
-    print("📊 COMPARISON REPORT (Odyssea IMAX 70mm - Standard Seats Only)")
+    print(f"📊 COMPARISON REPORT ({FILM_NAME} IMAX 70mm - Standard Seats Only)")
     print("=" * 70)
 
     if is_initial_run:
@@ -310,7 +314,7 @@ def main():
                 
                 print(f"   🕒 {t_str} | 🪑 Standard Seats: {std_info} | {status}")
             print()
-        print(f"📅 Latest scheduled Odyssea 70mm date: {target_dates[-1] if target_dates else 'N/A'}")
+        print(f"📅 Latest scheduled {FILM_NAME} 70mm date: {target_dates[-1] if target_dates else 'N/A'}")
 
     else:
         has_alerts = False
@@ -318,12 +322,12 @@ def main():
         # Alert: New Dates
         if new_dates:
             has_alerts = True
-            print(f"\n🎉 NEW ODYSSEA 70mm DATE(S) ADDED ({len(new_dates)}):")
+            print(f"\n🎉 NEW {FILM_NAME} 70mm DATE(S) ADDED ({len(new_dates)}):")
             for d in new_dates:
                 print(f"   🗓️ {d}")
                 send_ntfy_alert(
                     title="🎉 New IMAX 70mm Date Added!",
-                    message=f"Cinema City Flora added a new date for Odyssea (IMAX 70mm): {d}",
+                    message=f"Cinema City Flora added a new date for {FILM_NAME} (IMAX 70mm): {d}",
                     tags="calendar,clapper,ticket"
                 )
 
@@ -343,7 +347,7 @@ def main():
                 
                 send_ntfy_alert(
                     title="🎟️ New IMAX 70mm Showtime!",
-                    message=f"Odyssea (IMAX 70mm)\nDate: {time_str}\nStandard Seats: {std_info}",
+                    message=f"{FILM_NAME} (IMAX 70mm)\nDate: {time_str}\nStandard Seats: {std_info}",
                     link=booking_link,
                     tags="ticket,popcorn"
                 )
@@ -361,13 +365,13 @@ def main():
                 
                 send_ntfy_alert(
                     title="🔔 Standard Seats Available!",
-                    message=f"Odyssea (IMAX 70mm)\nShowtime: {time_str}\n{ev['avail_std']} standard seat(s) opened up!",
+                    message=f"{FILM_NAME} (IMAX 70mm)\nShowtime: {time_str}\n{ev['avail_std']} standard seat(s) opened up!",
                     link=booking_link,
                     tags="bell,fire,ticket"
                 )
 
         if not has_alerts:
-            print("ℹ️ No new dates, showtimes, or seat restocks detected for Odyssea IMAX 70mm.")
+            print(f"ℹ️ No new dates, showtimes, or seat restocks detected for {FILM_NAME} IMAX 70mm.")
             print(f"📅 Latest scheduled date currently: {target_dates[-1] if target_dates else 'N/A'}")
 
     # 5. Save state to state_v2.json

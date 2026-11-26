@@ -1,508 +1,324 @@
 {
-  "last_check": "2026-07-31 10:38:02",
-  "film_id": "7268s2r",
+  "last_check": "2026-11-26 10:14:50",
+  "film_id": "8105s2r",
   "attribute": "70-mm",
   "known_dates": [
-    "2026-07-31",
-    "2026-08-01",
-    "2026-08-02",
-    "2026-08-03",
-    "2026-08-04",
-    "2026-08-05",
-    "2026-08-06",
-    "2026-08-07",
-    "2026-08-08",
-    "2026-08-09",
-    "2026-08-10",
-    "2026-08-11",
-    "2026-08-12"
+    "2026-12-15",
+    "2026-12-16",
+    "2026-12-17",
+    "2026-12-18",
+    "2026-12-19",
+    "2026-12-20",
+    "2026-12-21",
+    "2026-12-22",
+    "2026-12-23"
   ],
   "known_events": {
-    "212835": {
-      "id": "212835",
-      "date": "2026-07-31",
-      "time": "2026-07-31T12:50:00",
+    "248952": {
+      "id": "248952",
+      "date": "2026-12-15",
+      "time": "2026-12-15T14:00:00",
       "auditorium": "IMAX VOLVO",
       "avail_std": 0,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/212835?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/248952?lang=cs"
     },
-    "212836": {
-      "id": "212836",
-      "date": "2026-07-31",
-      "time": "2026-07-31T16:40:00",
+    "248958": {
+      "id": "248958",
+      "date": "2026-12-15",
+      "time": "2026-12-15T17:20:00",
       "auditorium": "IMAX VOLVO",
       "avail_std": 0,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/212836?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/248958?lang=cs"
     },
-    "212837": {
-      "id": "212837",
-      "date": "2026-07-31",
-      "time": "2026-07-31T20:30:00",
+    "249034": {
+      "id": "249034",
+      "date": "2026-12-15",
+      "time": "2026-12-15T20:40:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 1,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/212837?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/249034?lang=cs"
     },
-    "220780": {
-      "id": "220780",
-      "date": "2026-07-31",
-      "time": "2026-08-01T00:20:00",
+    "267892": {
+      "id": "267892",
+      "date": "2026-12-15",
+      "time": "2026-12-16T00:01:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 19,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220780?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/267892?lang=cs"
     },
-    "212838": {
-      "id": "212838",
-      "date": "2026-08-01",
-      "time": "2026-08-01T09:00:00",
+    "267900": {
+      "id": "267900",
+      "date": "2026-12-16",
+      "time": "2026-12-16T21:00:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 14,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/212838?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/267900?lang=cs"
     },
-    "212839": {
-      "id": "212839",
-      "date": "2026-08-01",
-      "time": "2026-08-01T12:50:00",
+    "267902": {
+      "id": "267902",
+      "date": "2026-12-17",
+      "time": "2026-12-17T14:00:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 22,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/212839?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/267902?lang=cs"
     },
-    "212840": {
-      "id": "212840",
-      "date": "2026-08-01",
-      "time": "2026-08-01T16:40:00",
+    "267904": {
+      "id": "267904",
+      "date": "2026-12-17",
+      "time": "2026-12-17T17:20:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 14,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/212840?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/267904?lang=cs"
     },
-    "212841": {
-      "id": "212841",
-      "date": "2026-08-01",
-      "time": "2026-08-01T20:30:00",
+    "267905": {
+      "id": "267905",
+      "date": "2026-12-17",
+      "time": "2026-12-17T20:40:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 10,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/212841?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/267905?lang=cs"
     },
-    "220781": {
-      "id": "220781",
-      "date": "2026-08-01",
-      "time": "2026-08-02T00:20:00",
+    "267906": {
+      "id": "267906",
+      "date": "2026-12-18",
+      "time": "2026-12-18T10:40:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 29,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220781?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/267906?lang=cs"
     },
-    "212842": {
-      "id": "212842",
-      "date": "2026-08-02",
-      "time": "2026-08-02T09:00:00",
+    "267908": {
+      "id": "267908",
+      "date": "2026-12-18",
+      "time": "2026-12-18T14:00:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 25,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/212842?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/267908?lang=cs"
     },
-    "212843": {
-      "id": "212843",
-      "date": "2026-08-02",
-      "time": "2026-08-02T12:50:00",
+    "267909": {
+      "id": "267909",
+      "date": "2026-12-18",
+      "time": "2026-12-18T17:20:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 12,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/212843?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/267909?lang=cs"
     },
-    "212844": {
-      "id": "212844",
-      "date": "2026-08-02",
-      "time": "2026-08-02T16:40:00",
+    "267910": {
+      "id": "267910",
+      "date": "2026-12-18",
+      "time": "2026-12-18T20:40:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 13,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/212844?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/267910?lang=cs"
     },
-    "212845": {
-      "id": "212845",
-      "date": "2026-08-02",
-      "time": "2026-08-02T20:30:00",
+    "267911": {
+      "id": "267911",
+      "date": "2026-12-19",
+      "time": "2026-12-19T10:40:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 17,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/212845?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/267911?lang=cs"
     },
-    "220782": {
-      "id": "220782",
-      "date": "2026-08-02",
-      "time": "2026-08-03T00:20:00",
+    "267913": {
+      "id": "267913",
+      "date": "2026-12-19",
+      "time": "2026-12-19T14:00:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 9,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220782?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/267913?lang=cs"
     },
-    "220709": {
-      "id": "220709",
-      "date": "2026-08-03",
-      "time": "2026-08-03T09:00:00",
+    "267914": {
+      "id": "267914",
+      "date": "2026-12-19",
+      "time": "2026-12-19T17:20:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 9,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220709?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/267914?lang=cs"
     },
-    "220710": {
-      "id": "220710",
-      "date": "2026-08-03",
-      "time": "2026-08-03T12:50:00",
+    "267915": {
+      "id": "267915",
+      "date": "2026-12-19",
+      "time": "2026-12-19T20:40:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 14,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220710?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/267915?lang=cs"
     },
-    "220711": {
-      "id": "220711",
-      "date": "2026-08-03",
-      "time": "2026-08-03T16:40:00",
+    "267916": {
+      "id": "267916",
+      "date": "2026-12-20",
+      "time": "2026-12-20T10:40:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 19,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220711?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/267916?lang=cs"
     },
-    "220712": {
-      "id": "220712",
-      "date": "2026-08-03",
-      "time": "2026-08-03T20:30:00",
+    "267922": {
+      "id": "267922",
+      "date": "2026-12-20",
+      "time": "2026-12-20T14:00:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 20,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220712?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/267922?lang=cs"
     },
-    "220716": {
-      "id": "220716",
-      "date": "2026-08-04",
-      "time": "2026-08-04T09:00:00",
+    "267926": {
+      "id": "267926",
+      "date": "2026-12-20",
+      "time": "2026-12-20T17:20:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 15,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220716?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/267926?lang=cs"
     },
-    "220715": {
-      "id": "220715",
-      "date": "2026-08-04",
-      "time": "2026-08-04T12:50:00",
+    "291584": {
+      "id": "291584",
+      "date": "2026-12-21",
+      "time": "2026-12-21T09:00:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 306,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220715?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/291584?lang=cs"
     },
-    "220714": {
-      "id": "220714",
-      "date": "2026-08-04",
-      "time": "2026-08-04T16:40:00",
+    "291585": {
+      "id": "291585",
+      "date": "2026-12-21",
+      "time": "2026-12-21T12:20:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 247,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220714?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/291585?lang=cs"
     },
-    "220713": {
-      "id": "220713",
-      "date": "2026-08-04",
-      "time": "2026-08-04T20:30:00",
+    "291586": {
+      "id": "291586",
+      "date": "2026-12-21",
+      "time": "2026-12-21T15:40:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 206,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220713?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/291586?lang=cs"
     },
-    "220717": {
-      "id": "220717",
-      "date": "2026-08-05",
-      "time": "2026-08-05T09:00:00",
+    "291587": {
+      "id": "291587",
+      "date": "2026-12-21",
+      "time": "2026-12-21T19:00:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 161,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220717?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/291587?lang=cs"
     },
-    "220718": {
-      "id": "220718",
-      "date": "2026-08-05",
-      "time": "2026-08-05T12:50:00",
+    "291588": {
+      "id": "291588",
+      "date": "2026-12-21",
+      "time": "2026-12-21T22:20:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 254,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220718?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/291588?lang=cs"
     },
-    "220719": {
-      "id": "220719",
-      "date": "2026-08-05",
-      "time": "2026-08-05T16:40:00",
+    "291589": {
+      "id": "291589",
+      "date": "2026-12-22",
+      "time": "2026-12-22T09:00:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 312,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220719?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/291589?lang=cs"
     },
-    "220720": {
-      "id": "220720",
-      "date": "2026-08-05",
-      "time": "2026-08-05T20:30:00",
+    "291590": {
+      "id": "291590",
+      "date": "2026-12-22",
+      "time": "2026-12-22T12:20:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 266,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220720?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/291590?lang=cs"
     },
-    "220721": {
-      "id": "220721",
-      "date": "2026-08-06",
-      "time": "2026-08-06T09:00:00",
+    "291591": {
+      "id": "291591",
+      "date": "2026-12-22",
+      "time": "2026-12-22T15:40:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 237,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220721?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/291591?lang=cs"
     },
-    "220722": {
-      "id": "220722",
-      "date": "2026-08-06",
-      "time": "2026-08-06T12:50:00",
+    "291592": {
+      "id": "291592",
+      "date": "2026-12-22",
+      "time": "2026-12-22T19:00:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 173,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220722?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/291592?lang=cs"
     },
-    "220723": {
-      "id": "220723",
-      "date": "2026-08-06",
-      "time": "2026-08-06T16:40:00",
+    "291593": {
+      "id": "291593",
+      "date": "2026-12-22",
+      "time": "2026-12-22T22:20:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 262,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220723?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/291593?lang=cs"
     },
-    "220724": {
-      "id": "220724",
-      "date": "2026-08-06",
-      "time": "2026-08-06T20:30:00",
+    "291594": {
+      "id": "291594",
+      "date": "2026-12-23",
+      "time": "2026-12-23T09:00:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 301,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220724?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/291594?lang=cs"
     },
-    "220729": {
-      "id": "220729",
-      "date": "2026-08-07",
-      "time": "2026-08-07T09:00:00",
+    "291595": {
+      "id": "291595",
+      "date": "2026-12-23",
+      "time": "2026-12-23T12:20:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 269,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220729?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/291595?lang=cs"
     },
-    "220726": {
-      "id": "220726",
-      "date": "2026-08-07",
-      "time": "2026-08-07T12:50:00",
+    "291596": {
+      "id": "291596",
+      "date": "2026-12-23",
+      "time": "2026-12-23T15:40:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 248,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220726?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/291596?lang=cs"
     },
-    "220727": {
-      "id": "220727",
-      "date": "2026-08-07",
-      "time": "2026-08-07T16:40:00",
+    "291597": {
+      "id": "291597",
+      "date": "2026-12-23",
+      "time": "2026-12-23T19:00:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 209,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220727?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/291597?lang=cs"
     },
-    "220728": {
-      "id": "220728",
-      "date": "2026-08-07",
-      "time": "2026-08-07T20:30:00",
+    "291598": {
+      "id": "291598",
+      "date": "2026-12-23",
+      "time": "2026-12-23T22:20:00",
       "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
+      "avail_std": 270,
       "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220728?lang=cs"
-    },
-    "220725": {
-      "id": "220725",
-      "date": "2026-08-08",
-      "time": "2026-08-08T09:00:00",
-      "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
-      "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220725?lang=cs"
-    },
-    "220730": {
-      "id": "220730",
-      "date": "2026-08-08",
-      "time": "2026-08-08T12:50:00",
-      "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
-      "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220730?lang=cs"
-    },
-    "220731": {
-      "id": "220731",
-      "date": "2026-08-08",
-      "time": "2026-08-08T16:40:00",
-      "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
-      "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220731?lang=cs"
-    },
-    "220732": {
-      "id": "220732",
-      "date": "2026-08-08",
-      "time": "2026-08-08T20:30:00",
-      "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
-      "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220732?lang=cs"
-    },
-    "220733": {
-      "id": "220733",
-      "date": "2026-08-09",
-      "time": "2026-08-09T09:00:00",
-      "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
-      "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220733?lang=cs"
-    },
-    "220734": {
-      "id": "220734",
-      "date": "2026-08-09",
-      "time": "2026-08-09T12:50:00",
-      "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
-      "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220734?lang=cs"
-    },
-    "220735": {
-      "id": "220735",
-      "date": "2026-08-09",
-      "time": "2026-08-09T16:40:00",
-      "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
-      "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220735?lang=cs"
-    },
-    "220736": {
-      "id": "220736",
-      "date": "2026-08-09",
-      "time": "2026-08-09T20:30:00",
-      "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
-      "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/220736?lang=cs"
-    },
-    "224125": {
-      "id": "224125",
-      "date": "2026-08-10",
-      "time": "2026-08-10T09:00:00",
-      "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
-      "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/224125?lang=cs"
-    },
-    "224126": {
-      "id": "224126",
-      "date": "2026-08-10",
-      "time": "2026-08-10T12:50:00",
-      "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
-      "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/224126?lang=cs"
-    },
-    "224127": {
-      "id": "224127",
-      "date": "2026-08-10",
-      "time": "2026-08-10T16:40:00",
-      "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
-      "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/224127?lang=cs"
-    },
-    "224128": {
-      "id": "224128",
-      "date": "2026-08-10",
-      "time": "2026-08-10T20:30:00",
-      "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
-      "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/224128?lang=cs"
-    },
-    "224121": {
-      "id": "224121",
-      "date": "2026-08-11",
-      "time": "2026-08-11T09:00:00",
-      "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
-      "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/224121?lang=cs"
-    },
-    "224122": {
-      "id": "224122",
-      "date": "2026-08-11",
-      "time": "2026-08-11T12:50:00",
-      "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
-      "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/224122?lang=cs"
-    },
-    "224123": {
-      "id": "224123",
-      "date": "2026-08-11",
-      "time": "2026-08-11T16:40:00",
-      "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
-      "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/224123?lang=cs"
-    },
-    "224124": {
-      "id": "224124",
-      "date": "2026-08-11",
-      "time": "2026-08-11T20:30:00",
-      "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
-      "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/224124?lang=cs"
-    },
-    "224117": {
-      "id": "224117",
-      "date": "2026-08-12",
-      "time": "2026-08-12T09:00:00",
-      "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
-      "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/224117?lang=cs"
-    },
-    "224118": {
-      "id": "224118",
-      "date": "2026-08-12",
-      "time": "2026-08-12T12:50:00",
-      "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
-      "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/224118?lang=cs"
-    },
-    "224119": {
-      "id": "224119",
-      "date": "2026-08-12",
-      "time": "2026-08-12T16:40:00",
-      "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
-      "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/224119?lang=cs"
-    },
-    "224120": {
-      "id": "224120",
-      "date": "2026-08-12",
-      "time": "2026-08-12T20:30:00",
-      "auditorium": "IMAX VOLVO",
-      "avail_std": 0,
-      "total_std": 379,
-      "bookingLink": "https://tickets.cinemacity.cz/api/order/224120?lang=cs"
+      "bookingLink": "https://tickets.cinemacity.cz/api/order/291598?lang=cs"
     }
   }
 }
